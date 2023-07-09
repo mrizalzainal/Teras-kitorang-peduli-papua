@@ -260,12 +260,6 @@ footer .credit a {
   html {
     font-size: 65.5%;
   }
-
-  .hero {
-    min-height: 50vh;
-    background-size: cover;
-  }
-
   #hamburger-menu {
     display: inline-block;
   }
