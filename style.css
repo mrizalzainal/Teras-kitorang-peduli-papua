@@ -90,7 +90,7 @@ body {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background-image: url("gambar/home.jpg");
+  background-image: url("Gambar/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -276,7 +276,7 @@ footer .credit a {
     right: -100%;
     background-color: rgba(0, 0, 0, 0.4);
     width: 20rem;
-    height: 20vh;
+    height: 20rem;
     transition: 0.3s;
   }
 
