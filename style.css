@@ -49,7 +49,7 @@ body {
   align-items: center;
 }
 .navbar .nav-log img {
-  height: 4rem;
+  height: 7rem;
   padding-right: 0.5rem;
 }
 .navbar .navbar-nav a {
@@ -169,6 +169,17 @@ body {
 }
 .kegiatan h2 span {
   color: rgb(52, 104, 247);
+}
+
+.kegiatan .contener-vd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.kegiatan .contener-vd video {
+  padding: 0.5rem;
 }
 
 /* card */
