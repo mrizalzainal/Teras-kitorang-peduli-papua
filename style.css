@@ -174,12 +174,15 @@ body {
 .kegiatan .contener-vd {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
 }
 .kegiatan .contener-vd video {
   padding: 0.5rem;
+}
+.kegiatan h3 {
+  text-align: center;
 }
 
 /* card */
