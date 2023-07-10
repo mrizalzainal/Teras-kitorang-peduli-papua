@@ -92,8 +92,8 @@ body {
   align-items: center;
   background-image: url("Gambar/home.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100%;
+  background-position: top;
   background-attachment: fixed;
   position: relative;
 }
@@ -253,12 +253,25 @@ footer .credit a {
   html {
     font-size: 75%;
   }
+  .hero {
+    min-height: 70vh;
+  }
 }
 /* Tablet */
 
 @media (max-width: 758px) {
   html {
-    font-size: 65.5%;
+    font-size: 65%;
+  }
+  .hero {
+    min-height: 40vh;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+  }
+  .text h2 {
+    font-size: 1.6rem;
   }
   #hamburger-menu {
     display: inline-block;
@@ -297,13 +310,19 @@ footer .credit a {
 
 /* Monile Phone */
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
   html {
-    font-size: 55%;
+    font-size: 50.5%;
     line-height: 2rem;
   }
+  .hero {
+    min-height: 30.9vh;
+  }
   .text h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
+  }
+  .text h2 {
+    font-size: 1.7rem;
   }
   .card .row .content p {
     font-size: 1.3rem;
@@ -311,5 +330,10 @@ footer .credit a {
 
   .card .row .content h3 {
     font-size: 1.8rem;
+  }
+}
+@media (max-width: 352px) {
+  html {
+    font-size: 40.89%;
   }
 }
