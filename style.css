@@ -84,6 +84,40 @@ body {
   display: none;
 }
 
+/* Search form */
+.navbar .search-form {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: white;
+  border: 1px solid #00000075;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+.navbar .search-form.active {
+  transform: scaleY(1);
+}
+.navbar .search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  width: 50rem;
+  color: #000000;
+  padding: 1rem;
+}
+.navbar .search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: #000000;
+}
+
 /* Hero section */
 
 .hero {
@@ -125,7 +159,7 @@ body {
 /* visi & misi */
 .vismis {
   text-align: justify;
-  padding: 8rem 7% 6rem;
+  padding: 13rem 7% 6rem;
   font-size: 1.3rem;
 }
 .vismis h2 {
@@ -158,7 +192,7 @@ body {
 /* Kegiatan */
 
 .kegiatan {
-  padding: 8rem 7% 1rem;
+  padding: 13rem 7% 5rem;
 }
 
 .kegiatan h2 {
@@ -297,7 +331,7 @@ footer .credit a {
     right: -100%;
     background-color: rgba(0, 0, 0, 0.4);
     width: 20rem;
-    height: 20rem;
+    height: 21rem;
     transition: 0.3s;
   }
 
@@ -319,6 +353,10 @@ footer .credit a {
 
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
+  }
+  .navbar .search-form {
+    width: 90%;
+    right: 2rem;
   }
 }
 
