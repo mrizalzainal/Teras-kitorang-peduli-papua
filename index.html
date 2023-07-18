@@ -18,6 +18,10 @@
 
     <!-- icon -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
   </head>
   <body>
     <!-- Navbar start -->
@@ -313,6 +317,7 @@
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="twitter"></i></a>
         <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
       </div>
       <div class="links">
         <a href="#home">Home</a>
@@ -325,11 +330,129 @@
       </div>
     </footer>
     <!-- Footer End -->
+    <!-- Modal box item call uss Start-->
+    <div class="modal">
+      <div class="modal-container">
+        <div class="close">
+          <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        </div>
+        <div class="modal-content">
+          <div class="contactUs">
+            <div class="title">
+              <h2>Contact Us</h2>
+            </div>
+            <div class="box">
+              <!-- box form -->
+              <div class="contact form">
+                <h3>Send a Message</h3>
+                <form action="#">
+                  <div class="formbox">
+                    <div class="rows50">
+                      <div class="inputbox">
+                        <span>First Name</span>
+                        <input type="text" placeholder="First" />
+                      </div>
+                      <div class="inputbox">
+                        <span>Last Name</span>
+                        <input type="text" placeholder="Last" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="formbox">
+                    <div class="rows50">
+                      <div class="inputbox">
+                        <span>Email</span>
+                        <input type="email" placeholder="@gmai.com" />
+                      </div>
+                      <div class="inputbox">
+                        <span>Phone Number</span>
+                        <input type="tel" placeholder="+62" />
+                      </div>
+                    </div>
+
+                    <div class="rows100">
+                      <div class="inputbox">
+                        <span>Message </span>
+                        <textarea
+                          placeholder="Write your Message here..."
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="rows100">
+                      <div class="inputbox">
+                        <input type="submit" value="Send" />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- box info -->
+              <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infoBox">
+                  <div>
+                    <span><ion-icon name="location"></ion-icon></span>
+                    <p>Jati.Perumnas , Ternate <br />Indonesia</p>
+                  </div>
+                  <div>
+                    <span><ion-icon name="mail"></ion-icon></span>
+                    <a href="mrizalzainal111@gmail.com"
+                      >mrizalzainal111@gmail.com</a
+                    >
+                  </div>
+                  <div>
+                    <span><ion-icon name="call"></ion-icon></span>
+                    <a href="tel:+6281230025884">+62 812 3002 5884</a>
+                  </div>
+                  <ul class="sci">
+                    <li>
+                      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    </li>
+                    <li>
+                      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    </li>
+                    <li>
+                      <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><ion-icon name="logo-instagram"></ion-icon
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- box map -->
+              <div class="contact map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.4540154256474!2d127.37085694999993!3d0.7742779499999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x329cb40f979eedc7%3A0xab147735016c7133!2sJati%20Perumnas%2C%20Kec.%20Ternate%20Sel.%2C%20Kota%20Ternate%2C%20Maluku%20Utara!5e0!3m2!1sid!2sid!4v1689656627166!5m2!1sid!2sid"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal box item call uss End-->
 
     <!-- Feather icon -->
     <script>
       feather.replace();
     </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
     <!-- My Javascript -->
     <script src="script.js"></script>

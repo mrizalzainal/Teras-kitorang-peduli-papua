@@ -35,3 +35,17 @@ document.addEventListener("click", function (e) {
     searchForm.classList.remove("active");
   }
 });
+// klik tombol contact uss
+const itemDetailModal = document.querySelector(".modal");
+const itemDetailButton = document.querySelector("#contack");
+
+itemDetailButton.onclick = (e) => {
+  itemDetailModal.style.display = "block";
+  e.preventDefault();
+};
+// click tombol close
+
+document.querySelector(".modal .close-icon").onclick = (e) => {
+  itemDetailModal.style.display = "none";
+  e.preventDefault();
+};
